@@ -1,4 +1,8 @@
 package com.crome.CardGame2;
+/*
+ * creates the form to display
+ * the 5 card hand
+ */
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -9,7 +13,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
 
 public class Form {
     private JFrame frame;

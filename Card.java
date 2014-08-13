@@ -1,4 +1,8 @@
 package com.crome.CardGame2;
+/*
+ * create the cards for the hand
+ * using arrays
+ */
 
 public class Card
 {

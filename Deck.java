@@ -1,11 +1,13 @@
 package com.crome.CardGame2;
+/*
+ * creates the card deck
+ * and shuffles the cards
+ */
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
 
-
-
+//create deck and then shuffle
 public class Deck{
 	
   private ArrayList<Card> cards;
@@ -23,11 +25,11 @@ public class Deck{
     }
     shuffle();
   }
-
+  //shuffle deck
   public void shuffle(){
     Collections.shuffle(cards);
   }
-
+  //deal 5 cards
   public ArrayList<Card> deal(){
 	hand = new ArrayList<Card>();
     for(int i = 1; i <=5; i++){
